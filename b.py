@@ -13,4 +13,4 @@ for i in Student:
 	print (t.substitute(name = i[0], marks=i[1]))
 for i in Student:
     print (t.substitute({'name' : i[0], 'marks' : i[1]}))
-print(t.safe_substitute(name='Raju Kumar'))
+print(t.safe_substitute(name='Raju Kumarfd'))
